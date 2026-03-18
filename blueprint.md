@@ -34,7 +34,7 @@ The goal was to make the application more "alive," visually appealing, and infor
 - [x] **Photo Gallery**: Added Unsplash placeholder images for major locations.
 - [x] **Detailed Transportation**: Added specific instructions for moving between Dogo Onsen and the hotel, and from Okaido back to the hotel.
 - [x] **Food & Restaurant Guide**: Added specific restaurant recommendations, menus, and map links for all major meals (Day 1 Lunch/Dinner, Day 2 Lunch/Dinner).
-- [ ] **Weather & Exchange Rate (Mockup)**: Planned but not implemented (Optional).
+- [x] **Weather & Exchange Rate (Mockup)**: Added a stylish mockup widget in the hero section displaying weather and exchange rate info.
 
 ### 3. Technical Improvements
 - [x] **Web Components**: Refactored timeline items into the `<timeline-item>` custom element.
@@ -59,3 +59,4 @@ The goal was to make the application more "alive," visually appealing, and infor
 16. **Step 16**: Added precise boarding and arrival location details for the Korean-exclusive airport shuttle bus.
 17. **Step 17**: Added Google Maps link for the Ichibancho bus stop on Day 3 for easier location confirmation.
 18. **Step 18**: Integrated Google Maps links for all transport stops and stations across the entire 3-day itinerary.
+19. **Step 19**: Implemented a "Weather & Exchange Rate" mockup widget in the hero section for enhanced visual appeal and information.
