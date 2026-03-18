@@ -48,3 +48,4 @@ The goal was to make the application more "alive," visually appealing, and infor
 6. **Step 6**: Fixed broken image for Taimeshi and added detailed transportation info for Day 1.
 7. **Step 7**: Added specific restaurant and menu recommendations for Day 2.
 8. **Step 8**: Optimized for mobile devices with responsive CSS media queries.
+9. **Step 9**: Added detailed transportation instructions for each movement on Day 2.
