@@ -17,6 +17,7 @@
 
     <nav>
         <ul>
+            <li><a href="#prep" class="nav-link" onclick="showDay('prep')">Prep</a></li>
             <li><a href="#day1" class="nav-link active" onclick="showDay('day1')">Day 1</a></li>
             <li><a href="#day2" class="nav-link" onclick="showDay('day2')">Day 2</a></li>
             <li><a href="#day3" class="nav-link" onclick="showDay('day3')">Day 3</a></li>
@@ -24,6 +25,27 @@
     </nav>
 
     <main class="container">
+        <!-- Travel Preparation Section -->
+        <section id="prep" class="day-section">
+            <div class="day-header">
+                <h2><i class="fas fa-clipboard-check"></i> 여행 준비물 & 팁</h2>
+                <span class="route-tag">출발 전 필독</span>
+            </div>
+            <div class="timeline">
+                <timeline-item time="Essential" title="필수 체크리스트">
+                    <p><i class="fas fa-check-square"></i> <strong>여권</strong>: 유효기간 6개월 이상 권장</p>
+                    <p><i class="fas fa-check-square"></i> <strong>Visit Japan Web</strong>: QR코드 미리 캡처</p>
+                    <p><i class="fas fa-check-square"></i> <strong>제주항공 모바일 보딩패스</strong>: 공항 도착 전 발급</p>
+                    <p><i class="fas fa-check-square"></i> <strong>데이터 사용</strong>: eSIM 또는 로밍 신청</p>
+                </timeline-item>
+                <timeline-item time="Local Tip" title="마쓰야마 여행 꿀팁">
+                    <p><i class="fas fa-lightbulb"></i> <strong>무료 셔틀버스</strong>: 한국인 전용 버스 시간표 확인 필수</p>
+                    <p><i class="fas fa-lightbulb"></i> <strong>트램(노면전차)</strong>: 뒷문으로 타고 앞문으로 내릴 때 요금 지불 (1회 200엔)</p>
+                    <p><i class="fas fa-lightbulb"></i> <strong>수건 지참</strong>: 도고 온천 및 족욕 이용 시 개인 수건 챙기기</p>
+                </timeline-item>
+            </div>
+        </section>
+
         <!-- Day 1 -->
         <section id="day1" class="day-section">
             <div class="day-header">
@@ -31,48 +53,33 @@
                 <span class="route-tag">인천 → 마쓰야마 공항 → 카츠야마프리미어 호텔 → 도고 온천</span>
             </div>
             <div class="timeline">
-                <div class="item">
-                    <div class="time">07:00</div>
-                    <div class="content">
-                        <h3>인천 공항 출발 (7C1721)</h3>
-                        <p>제주항공 7C1721편 탑승 (인천 07:00). 제1터미널 이용.</p>
+                <timeline-item time="07:00" title="인천 공항 출발 (7C1721)">
+                    <p>제주항공 7C1721편 탑승 (인천 07:00). 제1터미널 이용.</p>
+                </timeline-item>
+                <timeline-item time="08:40" title="마쓰야마 공항 도착">
+                    <p>한국인 전용 <strong>무료 셔틀버스</strong> 탑승. 여권 및 항공권 제시 후 시내행(제일 먼저 오는 차) 탑승.</p>
+                    <a href="https://www.google.com/maps/search/Matsuyama+Airport" target="_blank"><i class="fas fa-map-marker-alt"></i> 공항 위치 보기</a>
+                </timeline-item>
+                <timeline-item time="10:00" title="호텔 짐 보관: 카츠야마프리미어 호텔">
+                    <p>이치반초(一番町) 정류장에서 하차 후 도보 2분. 체크인 전 짐 보관 서비스 이용.</p>
+                    <a href="https://www.google.com/maps/search/Katsuyama+Premier+Hotel+Matsuyama" target="_blank"><i class="fas fa-map-marker-alt"></i> 호텔 위치 보기</a>
+                </timeline-item>
+                <timeline-item time="11:30" title="점심 식사: 타이메시">
+                    <p>오카이도 상점가 인근 '고시키' 등 방문. <strong>노면전차(3번, 5번)</strong>를 이용하여 오카이도 역 하차.</p>
+                    <div class="img-container">
+                         <img src="https://images.unsplash.com/photo-1580442151529-343f2f5e0e27?auto=format&fit=crop&w=400&q=80" alt="Taimeshi">
                     </div>
-                </div>
-                <div class="item">
-                    <div class="time">08:40</div>
-                    <div class="content">
-                        <h3>마쓰야마 공항 도착</h3>
-                        <p>한국인 전용 <strong>무료 셔틀버스</strong> 탑승. 여권 및 항공권 제시 후 시내행(제일 먼저 오는 차) 탑승.</p>
+                </timeline-item>
+                <timeline-item time="13:30" title="도고 온천 본관 & 하이카라 도리">
+                    <p><strong>노면전차 3, 5번</strong> 종점 '도고 온천역' 하차. 본관은 <strong>정리권</strong>을 먼저 발급받은 후 대기 시간에 상점가 산책.</p>
+                    <div class="img-container">
+                         <img src="https://images.unsplash.com/photo-1542051841857-5f90071e7989?auto=format&fit=crop&w=400&q=80" alt="Dogo Onsen">
                     </div>
-                </div>
-                <div class="item">
-                    <div class="time">10:00</div>
-                    <div class="content">
-                        <h3>호텔 짐 보관: 카츠야마프리미어 호텔</h3>
-                        <p>이치반초(一番町) 정류장에서 하차 후 도보 2분. 체크인 전 짐 보관 서비스 이용.</p>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="time">11:30</div>
-                    <div class="content">
-                        <h3>점심 식사: 타이메시</h3>
-                        <p>오카이도 상점가 인근 '고시키' 등 방문. <strong>노면전차(3번, 5번)</strong>를 이용하여 오카이도 역 하차.</p>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="time">13:30</div>
-                    <div class="content">
-                        <h3>도고 온천 본관 & 하이카라 도리</h3>
-                        <p><strong>노면전차 3, 5번</strong> 종점 '도고 온천역' 하차. 본관은 <strong>정리권</strong>을 먼저 발급받은 후 대기 시간에 상점가 산책.</p>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="time">17:00</div>
-                    <div class="content">
-                        <h3>봇짱 시계탑 & 족욕</h3>
-                        <p>정시마다 움직이는 시계탑 공연 관람(약 5분). 바로 옆 무료 족욕탕에서 수건 지참하여 피로 풀기.</p>
-                    </div>
-                </div>
+                    <a href="https://www.google.com/maps/search/Dogo+Onsen+Main+Building" target="_blank"><i class="fas fa-map-marker-alt"></i> 도고 온천 위치 보기</a>
+                </timeline-item>
+                <timeline-item time="17:00" title="봇짱 시계탑 & 족욕">
+                    <p>정시마다 움직이는 시계탑 공연 관람(약 5분). 바로 옆 무료 족욕탕에서 수건 지참하여 피로 풀기.</p>
+                </timeline-item>
             </div>
         </section>
 
@@ -83,34 +90,25 @@
                 <span class="route-tag">마쓰야마 성 → 미츠하마 → 오카이도</span>
             </div>
             <div class="timeline">
-                <div class="item">
-                    <div class="time">09:30</div>
-                    <div class="content">
-                        <h3>마쓰야마 성 관람</h3>
-                        <p><strong>로프웨이 또는 1인용 리프트</strong> 이용(왕복권 구매 추천). 천수각 입장은 별도 매표소에서 티켓 구매.</p>
+                <timeline-item time="09:30" title="마쓰야마 성 관람">
+                    <p><strong>로프웨이 또는 1인용 리프트</strong> 이용(왕복권 구매 추천). 천수각 입장은 별도 매표소에서 티켓 구매.</p>
+                    <div class="img-container">
+                         <img src="https://images.unsplash.com/photo-1590559899731-a382839e5549?auto=format&fit=crop&w=400&q=80" alt="Matsuyama Castle">
                     </div>
-                </div>
-                <div class="item">
-                    <div class="time">12:30</div>
-                    <div class="content">
-                        <h3>점심 식사 및 반스이소</h3>
-                        <p>마쓰야마 성에서 내려와 도보 이동. 프랑스풍 별장 반스이소 외관 관람 후 인근 정식당 이용.</p>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="time">15:00</div>
-                    <div class="content">
-                        <h3>미츠하마 & 바이신지</h3>
-                        <p><strong>이요테츠 교외전차(다카하마선)</strong>를 타고 바이신지 역 하차. 바다가 보이는 역 플랫폼에서 기념사진 촬영.</p>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="time">18:30</div>
-                    <div class="content">
-                        <h3>오카이도 저녁 식사</h3>
-                        <p>다시 <strong>교외전차</strong>로 시내 귀환. 오카이도 상점가에서 미츠하마 야키 또는 야키토리 체험.</p>
-                    </div>
-                </div>
+                    <a href="https://www.google.com/maps/search/Matsuyama+Castle" target="_blank"><i class="fas fa-map-marker-alt"></i> 마쓰야마 성 위치 보기</a>
+                </timeline-item>
+                <timeline-item time="12:30" title="점심 식사 및 반스이소">
+                    <p>마쓰야마 성에서 내려와 도보 이동. 프랑스풍 별장 반스이소 외관 관람 후 인근 정식당 이용.</p>
+                    <a href="https://www.google.com/maps/search/Bansuiso" target="_blank"><i class="fas fa-map-marker-alt"></i> 반스이소 위치 보기</a>
+                </timeline-item>
+                <timeline-item time="15:00" title="미츠하마 & 바이신지">
+                    <p><strong>이요테츠 교외전차(다카하마선)</strong>를 타고 바이신지 역 하차. 바다가 보이는 역 플랫폼에서 기념사진 촬영.</p>
+                    <a href="https://www.google.com/maps/search/Baishinji+Station" target="_blank"><i class="fas fa-map-marker-alt"></i> 바이신지 역 위치 보기</a>
+                </timeline-item>
+                <timeline-item time="18:30" title="오카이도 저녁 식사">
+                    <p>다시 <strong>교외전차</strong>로 시내 귀환. 오카이도 상점가에서 미츠하마 야키 또는 야키토리 체험.</p>
+                    <a href="https://www.google.com/maps/search/Okaido+Shopping+Street" target="_blank"><i class="fas fa-map-marker-alt"></i> 오카이도 위치 보기</a>
+                </timeline-item>
             </div>
         </section>
 
@@ -121,34 +119,18 @@
                 <span class="route-tag">호텔 체크아웃 → 마쓰야마 공항 → 인천</span>
             </div>
             <div class="timeline">
-                <div class="item">
-                    <div class="time">07:00</div>
-                    <div class="content">
-                        <h3>조식 및 체크아웃</h3>
-                        <p>카츠야마프리미어 호텔 조식 후 신속히 체크아웃.</p>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="time">07:20</div>
-                    <div class="content">
-                        <h3>공항 셔틀버스 탑승</h3>
-                        <p>이치반초(또는 오카이도) 정류장에서 <strong>한국인 전용 무료 셔틀버스</strong> 또는 리무진 버스 탑승.</p>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="time">09:40</div>
-                    <div class="content">
-                        <h3>마쓰야마 공항 출발 (7C1722)</h3>
-                        <p>제주항공 7C1722편 탑승. 공항 내 기념품점에서 미처 사지 못한 귤 관련 상품 구매 가능.</p>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="time">11:15</div>
-                    <div class="content">
-                        <h3>인천 공항 도착</h3>
-                        <p>수하물 수령 후 귀가.</p>
-                    </div>
-                </div>
+                <timeline-item time="07:00" title="조식 및 체크아웃">
+                    <p>카츠야마프리미어 호텔 조식 후 신속히 체크아웃.</p>
+                </timeline-item>
+                <timeline-item time="07:20" title="공항 셔틀버스 탑승">
+                    <p>이치반초(또는 오카이도) 정류장에서 <strong>한국인 전용 무료 셔틀버스</strong> 또는 리무진 버스 탑승.</p>
+                </timeline-item>
+                <timeline-item time="09:40" title="마쓰야마 공항 출발 (7C1722)">
+                    <p>제주항공 7C1722편 탑승. 공항 내 기념품점에서 미처 사지 못한 귤 관련 상품 구매 가능.</p>
+                </timeline-item>
+                <timeline-item time="11:15" title="인천 공항 도착">
+                    <p>수하물 수령 후 귀가.</p>
+                </timeline-item>
             </div>
         </section>
     </main>

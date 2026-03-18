@@ -1,0 +1,44 @@
+# Blueprint: Matsuyama Travel Guide
+
+## Overview
+A web-based 2-night 3-day travel itinerary for Matsuyama, Japan. The application provides a detailed schedule, transportation tips, and visiting methods for a healing trip from Seoul to Matsuyama.
+
+## Current State
+- **Core Features**:
+    - 3-day tabbed navigation (Day 1, Day 2, Day 3) + Prep section.
+    - Timeline view of the itinerary using **Web Components**.
+    - Detailed transportation info (Flight 7C1721/7C1722, Korean-only free shuttle, No-men electric trains).
+    - Hero section with a background image.
+    - Responsive layout for mobile/web.
+    - Integrated Google Maps links and location images.
+- **Technologies**:
+    - HTML5, CSS3 (CSS Variables, Flexbox, Animations).
+    - Vanilla JavaScript (Custom Elements, Shadow DOM).
+    - Font Awesome for icons.
+    - Google Fonts (Pretendard).
+
+## Plan for Enhancement
+The goal was to make the application more "alive," visually appealing, and informative.
+
+### 1. Visual Design & UI/UX
+- [x] **Modern Typography**: Enhanced font hierarchy and readability with Pretendard.
+- [x] **Rich Aesthetics**: Added subtle textures, gradients, and multi-layered shadows to cards.
+- [x] **Interactivity**: Added hover effects, animations, and glow effects to navigation.
+- [x] **Iconography**: Used Font Awesome for descriptive icons.
+
+### 2. New Features
+- [x] **Interactive Map**: Integrated location links for each key item.
+- [x] **Travel Checklist**: Added a "Travel Preparation" section with essential items and tips.
+- [x] **Photo Gallery**: Added Unsplash placeholder images for major locations.
+- [ ] **Weather & Exchange Rate (Mockup)**: Planned but not implemented (Optional).
+
+### 3. Technical Improvements
+- [x] **Web Components**: Refactored timeline items into the `<timeline-item>` custom element.
+- [x] **Accessibility (A11y)**: Semantic HTML and descriptive alt/aria attributes.
+
+## Steps Completed
+1. **Step 1**: Enhanced CSS with modern features and visual polish.
+2. **Step 2**: Added "Travel Preparation" section.
+3. **Step 3**: Integrated Map location links.
+4. **Step 4**: Added image placeholders for major spots.
+5. **Step 5**: Refactored to Web Components for better encapsulation.
