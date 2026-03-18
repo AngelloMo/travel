@@ -26,6 +26,7 @@ The goal was to make the application more "alive," visually appealing, and infor
 - [x] **Interactivity**: Added hover effects, animations, and glow effects to navigation.
 - [x] **Iconography**: Used Font Awesome for descriptive icons.
 - [x] **Mobile Optimization**: Implemented responsive design with multiple breakpoints for smartphones and tablets.
+- [x] **Schedule Distinction**: Added unique accent colors and themes for each day (Day 1-3, Prep) to clearly separate schedules.
 
 ### 2. New Features
 - [x] **Interactive Map**: Integrated location links for each key item.
@@ -50,3 +51,4 @@ The goal was to make the application more "alive," visually appealing, and infor
 8. **Step 8**: Optimized for mobile devices with responsive CSS media queries.
 9. **Step 9**: Added detailed transportation instructions for each movement on Day 2.
 10. **Step 10**: Added detailed ticket purchase information for Matsuyama Castle (Ropeway/Lift/Entrance).
+11. **Step 11**: Enhanced visual separation between days with unique color themes and distinct header styles.
