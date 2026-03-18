@@ -63,3 +63,4 @@ The goal was to make the application more "alive," visually appealing, and infor
 20. **Step 20**: Clearly marked the locations of Okaido and Katsuyamacho tram stops for Day 2 return.
 21. **Step 21**: Added individual Google Maps links for each restaurant in the Day 1 Lunch Top 5 list.
 22. **Step 22**: Extended individual Google Maps links to all recommended restaurants in all Top 5 lists (Day 1 Dinner, Day 2 Lunch/Dinner).
+23. **Step 23**: Added "Matsuyama 5 Specialties" section to the Prep tab and map links for major landmarks (Clock Tower, Shopping Street).
