@@ -55,3 +55,4 @@ The goal was to make the application more "alive," visually appealing, and infor
 12. **Step 12**: Increased vertical spacing between schedule items and day headers for improved readability and focus.
 13. **Step 13**: Significantly increased vertical spacing (Day Header: 80px, Item: 100px) for maximum visual clarity.
 14. **Step 14**: Added detailed instructions for getting the "Seiri-ken" (numbered ticket) at Dogo Onsen Honkan.
+15. **Step 15**: Implemented "Top 5 Rated Restaurants" lists for each major meal with ratings and descriptions.
