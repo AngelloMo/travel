@@ -30,6 +30,8 @@ The goal was to make the application more "alive," visually appealing, and infor
 - [x] **Interactive Map**: Integrated location links for each key item.
 - [x] **Travel Checklist**: Added a "Travel Preparation" section with essential items and tips.
 - [x] **Photo Gallery**: Added Unsplash placeholder images for major locations.
+- [x] **Detailed Transportation**: Added specific instructions for moving between Dogo Onsen and the hotel.
+- [x] **Food & Restaurant Guide**: Added specific restaurant recommendations and menus for Day 1 and Day 2.
 - [ ] **Weather & Exchange Rate (Mockup)**: Planned but not implemented (Optional).
 
 ### 3. Technical Improvements
@@ -42,3 +44,5 @@ The goal was to make the application more "alive," visually appealing, and infor
 3. **Step 3**: Integrated Map location links.
 4. **Step 4**: Added image placeholders for major spots.
 5. **Step 5**: Refactored to Web Components for better encapsulation.
+6. **Step 6**: Fixed broken image for Taimeshi and added detailed transportation info for Day 1.
+7. **Step 7**: Added specific restaurant and menu recommendations for Day 2.
