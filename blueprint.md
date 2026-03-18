@@ -60,3 +60,4 @@ The goal was to make the application more "alive," visually appealing, and infor
 17. **Step 17**: Added Google Maps link for the Ichibancho bus stop on Day 3 for easier location confirmation.
 18. **Step 18**: Integrated Google Maps links for all transport stops and stations across the entire 3-day itinerary.
 19. **Step 19**: Implemented a "Weather & Exchange Rate" mockup widget in the hero section for enhanced visual appeal and information.
+20. **Step 20**: Clearly marked the locations of Okaido and Katsuyamacho tram stops for Day 2 return.
