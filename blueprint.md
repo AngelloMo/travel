@@ -30,8 +30,8 @@ The goal was to make the application more "alive," visually appealing, and infor
 - [x] **Interactive Map**: Integrated location links for each key item.
 - [x] **Travel Checklist**: Added a "Travel Preparation" section with essential items and tips.
 - [x] **Photo Gallery**: Added Unsplash placeholder images for major locations.
-- [x] **Detailed Transportation**: Added specific instructions for moving between Dogo Onsen and the hotel.
-- [x] **Food & Restaurant Guide**: Added specific restaurant recommendations and menus for Day 1 and Day 2.
+- [x] **Detailed Transportation**: Added specific instructions for moving between Dogo Onsen and the hotel, and from Okaido back to the hotel.
+- [x] **Food & Restaurant Guide**: Added specific restaurant recommendations, menus, and map links for all major meals (Day 1 Lunch/Dinner, Day 2 Lunch/Dinner).
 - [ ] **Weather & Exchange Rate (Mockup)**: Planned but not implemented (Optional).
 
 ### 3. Technical Improvements
