@@ -25,6 +25,7 @@ The goal was to make the application more "alive," visually appealing, and infor
 - [x] **Rich Aesthetics**: Added subtle textures, gradients, and multi-layered shadows to cards.
 - [x] **Interactivity**: Added hover effects, animations, and glow effects to navigation.
 - [x] **Iconography**: Used Font Awesome for descriptive icons.
+- [x] **Mobile Optimization**: Implemented responsive design with multiple breakpoints for smartphones and tablets.
 
 ### 2. New Features
 - [x] **Interactive Map**: Integrated location links for each key item.
@@ -46,3 +47,4 @@ The goal was to make the application more "alive," visually appealing, and infor
 5. **Step 5**: Refactored to Web Components for better encapsulation.
 6. **Step 6**: Fixed broken image for Taimeshi and added detailed transportation info for Day 1.
 7. **Step 7**: Added specific restaurant and menu recommendations for Day 2.
+8. **Step 8**: Optimized for mobile devices with responsive CSS media queries.
