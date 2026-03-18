@@ -116,12 +116,12 @@ nav ul {
 #prep { --day-accent: #9B59B6; } /* Purple */
 
 .day-header {
-    margin-bottom: 40px;
-    padding: 30px;
+    margin-bottom: 60px;
+    padding: 35px;
     background: var(--card-bg);
     border-radius: 20px;
     box-shadow: var(--shadow-deep);
-    border-left: 8px solid var(--day-accent);
+    border-left: 10px solid var(--day-accent);
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -173,18 +173,14 @@ nav ul {
     opacity: 0.3;
 }
 
-.item::before {
-    content: '';
-    position: absolute;
-    left: -44px;
-    top: 25px;
-    width: 14px;
-    height: 14px;
-    border-radius: 50%;
-    background: var(--day-accent);
-    border: 4px solid white;
+.item {
+    position: relative;
+    margin-bottom: 70px;
+    background: var(--card-bg);
+    padding: 30px;
+    border-radius: 15px;
     box-shadow: var(--shadow-soft);
-    z-index: 1;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .time {
@@ -285,11 +281,11 @@ footer p {
     }
 
     .container { margin: 30px auto; padding: 0 15px; }
-    .day-header { padding: 20px; margin-bottom: 30px; }
+    .day-header { padding: 25px; margin-bottom: 40px; }
     .day-header h2 { font-size: 1.5rem; }
     
     .timeline { padding-left: 30px; }
-    .item { padding: 20px; margin-bottom: 35px; }
+    .item { padding: 20px; margin-bottom: 50px; }
     .item::before { left: -34px; width: 10px; height: 10px; top: 28px; }
     .timeline::before { left: 0; }
     
