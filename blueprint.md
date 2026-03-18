@@ -11,6 +11,7 @@ A web-based 2-night 3-day travel itinerary for Matsuyama, Japan. The application
     - Hero section with a background image.
     - Responsive layout for mobile/web.
     - Integrated Google Maps links and location images.
+    - **Matsuyama Visit Blog List**: A curated collection of popular travel reviews and tips from external blogs.
 - **Technologies**:
     - HTML5, CSS3 (CSS Variables, Flexbox, Animations).
     - Vanilla JavaScript (Custom Elements, Shadow DOM).
@@ -64,3 +65,4 @@ The goal was to make the application more "alive," visually appealing, and infor
 21. **Step 21**: Added individual Google Maps links for each restaurant in the Day 1 Lunch Top 5 list.
 22. **Step 22**: Extended individual Google Maps links to all recommended restaurants in all Top 5 lists (Day 1 Dinner, Day 2 Lunch/Dinner).
 23. **Step 23**: Added "Matsuyama 5 Specialties" section to the Prep tab and map links for major landmarks (Clock Tower, Shopping Street).
+24. **Step 24**: Added "Matsuyama Visit Blog List" page to share external travel reviews and tips.
