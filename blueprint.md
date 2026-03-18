@@ -53,3 +53,4 @@ The goal was to make the application more "alive," visually appealing, and infor
 10. **Step 10**: Added detailed ticket purchase information for Matsuyama Castle (Ropeway/Lift/Entrance).
 11. **Step 11**: Enhanced visual separation between days with unique color themes and distinct header styles.
 12. **Step 12**: Increased vertical spacing between schedule items and day headers for improved readability and focus.
+13. **Step 13**: Significantly increased vertical spacing (Day Header: 80px, Item: 100px) for maximum visual clarity.
