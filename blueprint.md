@@ -58,3 +58,4 @@ The goal was to make the application more "alive," visually appealing, and infor
 15. **Step 15**: Implemented "Top 5 Rated Restaurants" lists for each major meal with ratings and descriptions.
 16. **Step 16**: Added precise boarding and arrival location details for the Korean-exclusive airport shuttle bus.
 17. **Step 17**: Added Google Maps link for the Ichibancho bus stop on Day 3 for easier location confirmation.
+18. **Step 18**: Integrated Google Maps links for all transport stops and stations across the entire 3-day itinerary.
