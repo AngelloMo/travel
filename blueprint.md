@@ -66,3 +66,4 @@ The goal was to make the application more "alive," visually appealing, and infor
 22. **Step 22**: Extended individual Google Maps links to all recommended restaurants in all Top 5 lists (Day 1 Dinner, Day 2 Lunch/Dinner).
 23. **Step 23**: Added "Matsuyama 5 Specialties" section to the Prep tab and map links for major landmarks (Clock Tower, Shopping Street).
 24. **Step 24**: Added "Matsuyama Visit Blog List" page to share external travel reviews and tips.
+25. **Step 25**: Added detailed payment tips (Travel card, Cash, QR pay) to the Prep checklist.
