@@ -67,3 +67,4 @@ The goal was to make the application more "alive," visually appealing, and infor
 23. **Step 23**: Added "Matsuyama 5 Specialties" section to the Prep tab and map links for major landmarks (Clock Tower, Shopping Street).
 24. **Step 24**: Added "Matsuyama Visit Blog List" page to share external travel reviews and tips.
 25. **Step 25**: Added detailed payment tips (Travel card, Cash, QR pay) to the Prep checklist.
+26. **Step 26**: Updated tram fare to 230 yen and refined transportation details: Okaido stop (department store side) for Baishinji, Matsuyama Castle Ropeway boarding location, and Airport Shuttle boarding time (07:15) and location (Mitsukoshi side).
