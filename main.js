@@ -121,8 +121,17 @@ function showDay(dayId) {
     });
 
     // 화면 상단으로 스크롤 (헤더 아래 네비게이션 위치쯤으로)
-    const scrollTarget = dayId === 'prep' ? 0 : 300;
+    const scrollTarget = (dayId === 'prep' || dayId === 'privacy' || dayId === 'about' || dayId === 'contact') ? 0 : 300;
     window.scrollTo({ top: scrollTarget, behavior: 'smooth' });
+}
+
+// 쿠키 동의 처리
+function acceptCookies() {
+    localStorage.setItem('cookie-consent', 'accepted');
+    const banner = document.getElementById('cookie-banner');
+    if (banner) {
+        banner.style.display = 'none';
+    }
 }
 
 // 초기 로딩 시 처리
@@ -133,5 +142,13 @@ document.addEventListener('DOMContentLoaded', () => {
         showDay(hash);
     } else {
         showDay('day1'); // 기본값 Day 1
+    }
+
+    // 쿠키 동의 확인
+    if (localStorage.getItem('cookie-consent') === 'accepted') {
+        const banner = document.getElementById('cookie-banner');
+        if (banner) {
+            banner.style.display = 'none';
+        }
     }
 });

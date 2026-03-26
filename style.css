@@ -272,9 +272,114 @@ nav ul {
     color: var(--primary-dark);
 }
 
+/* Ad Placeholders */
+.ad-placeholder {
+    text-align: center;
+    padding: 20px;
+    background: #f9f9f9;
+    border: 1px dashed #ccc;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+.ad-placeholder p {
+    color: #999;
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Footer Links */
+.footer-links {
+    margin-bottom: 20px;
+}
+
+.footer-links a {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: white;
+}
+
+/* Cookie Consent Banner */
+.cookie-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(45, 52, 54, 0.95);
+    backdrop-filter: blur(10px);
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    font-size: 0.95rem;
+    box-shadow: 0 -5px 20px rgba(0,0,0,0.2);
+    animation: slideUp 0.5s ease-out;
+}
+
+.cookie-banner p {
+    margin: 0;
+    padding-right: 20px;
+}
+
+.cookie-banner a {
+    color: var(--primary-light);
+    text-decoration: underline;
+}
+
+.cookie-banner button {
+    background: var(--primary-color);
+    border: none;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: 800;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+}
+
+.cookie-banner button:hover {
+    background: var(--primary-dark);
+    transform: scale(1.05);
+}
+
+@keyframes slideUp {
+    from { transform: translateY(100%); }
+    to { transform: translateY(0); }
+}
+
+/* Content Box for Privacy/About/Contact */
+.content-box {
+    padding: 40px;
+    background: var(--card-bg);
+    border-radius: 20px;
+    box-shadow: var(--shadow-deep);
+    margin-top: 20px;
+}
+
+.content-box h3 {
+    margin: 20px 0 10px;
+    color: var(--text-color);
+}
+
+.content-box p {
+    margin-bottom: 15px;
+    color: var(--text-light);
+}
+
 footer {
     text-align: center;
-    padding: 60px 20px;
+    padding: 80px 20px 40px;
     background: var(--text-color);
     color: rgba(255,255,255,0.7);
     margin-top: 80px;

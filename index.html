@@ -6,6 +6,8 @@
     <title>마쓰야마 2박 3일 힐링 여행</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Google AdSense Placeholder -->
+    <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script> -->
 </head>
 <body>
     <header>
@@ -34,6 +36,12 @@
     </nav>
 
     <main class="container">
+        <!-- Top Ad Placeholder -->
+        <div class="ad-placeholder top-ad">
+            <p>Advertisement</p>
+            <!-- <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-XXXXXXXXXXXXXXXX" data-ad-slot="XXXXXXXXXX" data-ad-format="auto" data-full-width-responsive="true"></ins> -->
+        </div>
+
         <!-- Travel Preparation Section -->
         <section id="prep" class="day-section">
             <div class="day-header">
@@ -328,11 +336,65 @@
                 </timeline-item>
             </div>
         </section>
+
+        <!-- Privacy Policy Section -->
+        <section id="privacy" class="day-section" style="display: none;">
+            <div class="day-header" style="background: #666;">
+                <h2><i class="fas fa-user-shield"></i> Privacy Policy</h2>
+            </div>
+            <div class="content-box">
+                <p>본 사이트는 Google AdSense를 이용하며, 사용자 경험 개선을 위해 쿠키를 사용합니다.</p>
+                <h3>1. 데이터 수집</h3>
+                <p>Google은 제3자 제공업체로서 사용자가 본 사이트 또는 다른 사이트를 방문한 기록을 바탕으로 광고를 게재하기 위해 쿠키를 사용합니다.</p>
+                <h3>2. 쿠키 사용 목적</h3>
+                <p>Google의 광고 쿠키 사용을 통해 Google과 파트너는 본 사이트 및 인터넷상의 다른 사이체 방문을 토대로 사용자에게 맞춤형 광고를 제공할 수 있습니다.</p>
+                <h3>3. 개인정보 선택권</h3>
+                <p>사용자는 <a href="https://adssettings.google.com/authenticated" target="_blank">광고 설정</a>을 방문하여 맞춤설정 광고를 해제할 수 있습니다. 또는 <a href="https://www.aboutads.info/choices" target="_blank">aboutads.info</a>를 방문하여 맞춤설정 광고에 사용되는 제3자 제공업체의 쿠키 사용을 차단할 수 있습니다.</p>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about" class="day-section" style="display: none;">
+            <div class="day-header" style="background: #666;">
+                <h2><i class="fas fa-info-circle"></i> About Us</h2>
+            </div>
+            <div class="content-box" style="padding: 20px; background: #fff; border-radius: 10px; margin-top: 20px;">
+                <p>마쓰야마 여행 가이드는 여행자들에게 유용한 정보를 제공하기 위해 제작된 개인 프로젝트입니다. 일본 마쓰야마의 매력을 널리 알리고, 더 나은 여행 경험을 돕는 것을 목표로 합니다.</p>
+            </div>
+        </section>
+
+        <!-- Contact Us Section -->
+        <section id="contact" class="day-section" style="display: none;">
+            <div class="day-header" style="background: #666;">
+                <h2><i class="fas fa-envelope"></i> Contact Us</h2>
+            </div>
+            <div class="content-box" style="padding: 20px; background: #fff; border-radius: 10px; margin-top: 20px;">
+                <p>궁금한 점이나 제안 사항이 있으시면 아래 이메일로 연락 주시기 바랍니다.</p>
+                <p><i class="fas fa-at"></i> Email: support@example.com</p>
+            </div>
+        </section>
+
+        <!-- Bottom Ad Placeholder -->
+        <div class="ad-placeholder bottom-ad" style="text-align: center; padding: 20px; background: #f9f9f9; border: 1px dashed #ccc; margin: 20px 0; border-radius: 8px;">
+            <p style="color: #999; font-size: 0.8rem; margin-bottom: 10px;">Advertisement</p>
+            <!-- <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-XXXXXXXXXXXXXXXX" data-ad-slot="XXXXXXXXXX" data-ad-format="auto" data-full-width-responsive="true"></ins> -->
+        </div>
     </main>
 
     <footer>
+        <div class="footer-links" style="margin-bottom: 10px;">
+            <a href="#about" onclick="showDay('about')" style="color: #666; text-decoration: none;">About Us</a> | 
+            <a href="#contact" onclick="showDay('contact')" style="color: #666; text-decoration: none;">Contact Us</a> | 
+            <a href="#privacy" onclick="showDay('privacy')" style="color: #666; text-decoration: none;">Privacy Policy</a>
+        </div>
         <p>&copy; 2024 Matsuyama Travel Guide. Enjoy your trip!</p>
     </footer>
+
+    <!-- Cookie Consent Banner -->
+    <div id="cookie-banner" class="cookie-banner" style="position: fixed; bottom: 0; left: 0; right: 0; background: rgba(0,0,0,0.8); color: #fff; padding: 15px; display: flex; justify-content: space-between; align-items: center; z-index: 1000; font-size: 0.9rem;">
+        <p style="margin: 0;">본 사이트는 서비스 제공 및 광고 게재를 위해 쿠키를 사용합니다. <a href="#privacy" onclick="showDay('privacy')" style="color: #4facfe;">자세히 보기</a></p>
+        <button onclick="acceptCookies()" style="background: #4facfe; border: none; color: #fff; padding: 8px 20px; border-radius: 5px; cursor: pointer; margin-left: 20px;">Accept</button>
+    </div>
 
     <script src="main.js"></script>
 </body>
